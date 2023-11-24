@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FFC0CB;
+}
+header{
+    background-color: rgb(210, 139, 151);
+    color: #fff;
+}
+
+header h1{
+    font-style: italic;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    background-color: #662E37;
+    color: #fff;
+}
+
+.carousel-inner .carousel-item > img{
+    border-radius: 5px;
+}
+.card-img{
+    object-fit: cover;
+    max-height: 400px;
+}
+.card{
+    margin-top: 20px;
+}
+footer{
+    padding: 20px 0;
+}

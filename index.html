@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faggoni - Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <h1>Faggoni</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#produtos" class="nav-link">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="cabecalho">
+        <div class="container">
+            <section id="home">
+                <h1>Home</h1>
+                <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="2000" class="carousel-item active">
+                            <img class="d-block w-100 img-fluid" src="imagens/bolsa_roxa&verde_faggoni_recortada.jpeg" alt="conjunto de bolsas faggoni">
+                        </div>
+                        <div data-bs-interval="2000" class="carousel-item">
+                            <img class="d-block w-100 img-fluid" src="imagens/bolsa_azul&laranja_mao_recortada.jpeg" alt="conjunto de bolsas faggoni">
+                        </div>
+                        <div data-bs-interval="2000" class="carousel-item">
+                            <img class="d-block w-100 img-fluid" src="imagens/bolsa_laranja_piscina_recortada.jpeg" alt="conjunto de bolsas faggoni">
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button"  data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button"  data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </section>
+            <section id="produtos">
+                <div class="container">
+                    <h1>News</h1>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 col-md-6 ">
+                            <div class="card">
+                                <img class="card-img" src="imagens/bolsa_marrom_mao.jpeg" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Faggoni.</h5>
+                                    <p class="card-text">35,00€</p>
+                                    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 col-md-6 ">
+                            <div class="card">
+                                <img class="card-img" src="imagens/bolsa_azul_mao.jpeg" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Faggoni.</h5>
+                                    <p class="card-text">35,00€</p>
+                                    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 col-md-6 ">
+                            <div class="card">
+                                <img class="card-img" src="imagens/bolsa_marrom_espelho.jpeg" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Faggoni.</h5>
+                                    <p class="card-text">35,00€</p>
+                                    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 col-md-6 ">
+                            <div class="card">
+                                <img class="card-img" src="imagens/bolsa_azul&laranja_mao.jpeg" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Faggoni.</h5>
+                                    <p class="card-text">35,00€</p>
+                                    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 col-md-6 ">
+                            <div class="card">
+                                <img class="card-img" src="imagens/bolsa_azul&laranja_mao.jpeg" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Faggoni.</h5>
+                                    <p class="card-text">35,00€</p>
+                                    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
